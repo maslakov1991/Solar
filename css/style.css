@@ -17,7 +17,7 @@ ul,
 ol {
     list-style: none;
 }
-
+/* font-family: "Roboto", sans-serif; */
 body {
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
@@ -25,12 +25,18 @@ body {
     line-height: 19px;
 }
 
-font-family: "Roboto", sans-serif;
-
 .container {
-    width: 1220px;
+    max-width: 1220px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 60px;
 }
 
 .header {
@@ -45,6 +51,7 @@ font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 
 .header__subtitle {
